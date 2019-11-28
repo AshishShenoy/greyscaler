@@ -9,11 +9,11 @@ To run this module, the following dependencies in the form of Python 3
 libraries are needed:
 
 - Pillow
-- progressbar
+- progressbar2
 
 Install these with the command:
 
-    $ sudo pip3 install Pillow progressbar2
+    $ pip3 install -r requirements.txt
 
 
 Download:

@@ -1,0 +1,2 @@
+Pillow==6.1.0
+progressbar2==3.42.0

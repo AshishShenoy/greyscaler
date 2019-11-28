@@ -31,10 +31,9 @@ def relativeLuminanace(r, g, b):
     perceived by our eyes. A rough approximation of the algorithm is used here
     to calculate the luminance of a color (r, g, b) as:
 
-                    0.2 ∗ r + 0.7 ∗ g + 0.1 ∗ b
+                    0.2989 ∗ r + 0.5870 ∗ g + 0.1140 ∗ b
     """
-    return int(r*0.2 + g*0.7 + b*0.1)
-
+    return int(r*0.2989 + g*0.5870 + b*0.1140)
 
 def main():
     imgName = input("Enter the image filename with its extension: ")
